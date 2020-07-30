@@ -21,14 +21,13 @@
 
   <body>
     <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #4D658E;">
-      <a class="navbar-brand my-name focus-in-expand" href="">James Sizeland</a>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #25100100;">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse focus-in-expand" id="navbarCollapse">
         <!-- Navigation Links -->
-        <ul class="navbar-nav ml-md-auto">
+        <ul class="navbar-nav ml-md-auto"> <!-- Modify Class here to change navbar alignment -->
           <!-- Github Link -->
           <li class="nav-item">
             <a class="nav-link px-1 mx-1 py-2" href="https://github.com/jamessizeland/" target="_blank" rel="noopener" aria-label="GitHub">
@@ -50,10 +49,33 @@
         </ul>
       </div>
     </nav>
+
+    <div id="top" class="jumbotron" data-position="center right" style="height: 925px;">
+			<div class="container">
+				<h1 class="my-name focus-in-expand">James Sizeland</h1>
+				<p class="lead focus-in-expand">Design | Automate | Test</p>
+			</div>
+			
+			<div class="overlay"></div>
+    </div>
+
+    <div id="about-me" class="container">
+      <div class="row">
+        <div class="col-md">
+          <h3>About me</h3>
+          <p>
+            I design and build automated test systems, and write & architect LabVIEW software for product R&D.<br><br>I specialise in cRIO RT & FPGA embedded test solutions along with machine vision and robotic control. My test rigs have featured in several Dyson media launches.<br><br>I'm currently expanding my skillset into webUIs through LabVIEW NXG, HTML, CSS and JavaScript, testing out my skills by building webpages like this!
+          </p>
+        </div>
+        <div class="col-md text-center">
+          <img class=profile-picture src="https://pbs.twimg.com/profile_images/1287809726206681093/vwEDhKyc_400x400.jpg" alt="James Sizeland profile picture" width = 292px>
+        </div>
+      </div>
+    </div>
     <!-- Hero box header -->
-    <header>
+    <!-- <header>
       <img class=profile-picture src="https://pbs.twimg.com/profile_images/1287809726206681093/vwEDhKyc_400x400.jpg" alt="James Sizeland profile picture" width = 300px>
-    </header>
+    </header> -->
           
 
     <!-- Optional JavaScript -->

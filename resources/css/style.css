@@ -7,27 +7,28 @@ Style Sheet for my web based CV
 #D8CBD3
 */
 body {
-  background-color: #D8CBD3;
+  background-color: #313131;
+  line-height: 1.64;
 }
 
-.profile-picture {
-  margin:10px;
-  border-radius: 5%;
-}
+
 
 header {
-  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/long\ tail\ wide.png);
+  
   background-size: cover;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/long-tail-wide.png);
   background-position:center;
   height: 100vh; /* Set the header element to the full height of the window*/
   margin-top: 74px;
 }
 
+
+
 .my-name {
   font-family: 'Vollkorn', serif;
   font-weight: 400;
   font-style: italic;
-  font-size: 200%;
+  font-size: 300%;
 }
 
 .focus-in-expand {
@@ -42,3 +43,21 @@ header {
  * ---------------------------------------------- */
 
  @-webkit-keyframes focus-in-expand{0%{letter-spacing:-.5em;-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes focus-in-expand{0%{letter-spacing:-.5em;-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}
+
+
+/*----------------------------------------------
+ * Jumbotron is the headline section of the webpage
+ *---------------------------------------------- */
+.jumbotron { background-color: #313131; margin-bottom: 0px;	padding: 0px; }
+.jumbotron .container { position: relative; top: 10%; z-index: 4; text-align: center; }
+.jumbotron .container > * { text-align: center; color: #D8CBD3; }
+.jumbotron .container h1 { padding-bottom: 20px; border-bottom: 1px solid #FFFFFF; border-bottom-color: rgba(255,255,255,0.35); display: inline-block;}
+.jumbotron .container .lead { font-size: 28px; }
+
+.container { max-width: 1280px; padding: 40px 50px;}
+
+#about-me {background-color: #ffffff; border: 3px solid #4D658E; width: 80%; position: relative; top: -600px; left: 0%;  display: inline-flexbox;}
+#about-me .row > div { margin-bottom: 10px;}
+#about-me img { margin:10px; border-radius: 0%; width: 100%; max-width: 350px;}
+#about-me p {color: #524e50; text-align:justify;}
+#about-me h3 {color: #313131;}
