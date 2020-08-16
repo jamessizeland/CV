@@ -21,13 +21,10 @@
 
   <body>
     <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #25100100;">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse focus-in-expand" id="navbarCollapse">
+    <nav class="navbar navbar-expand navbar-dark" style="background-color: #25100100;">
+        <div class="focus-in-expand" style="margin-left: auto;">
         <!-- Navigation Links -->
-        <ul class="navbar-nav ml-md-auto"> <!-- Modify Class here to change navbar alignment -->
+        <ul class="navbar-nav"> <!-- Modify Class here to change navbar alignment -->
           <!-- Github Link -->
           <li class="nav-item">
             <a class="nav-link px-1 mx-1 py-2" href="https://github.com/jamessizeland/" target="_blank" rel="noopener" aria-label="GitHub">
@@ -52,26 +49,27 @@
 
     <div id="top" class="jumbotron" data-position="center right" style="height: 925px;">
 			<div class="container">
-				<h1 class="my-name focus-in-expand">James Sizeland</h1>
-				<p class="lead focus-in-expand">Design | Automate | Test</p>
+				<h1 class="focus-in-expand" id="my-name">James Sizeland</h1>
+				<p class="lead focus-in-expand page-links"><a href="" id=Design>Design</a> | <a href="" id=Automate>Automate</a> | <a href="" id=Test>Test</a></p>
 			</div>
-			
-			<div class="overlay"></div>
-    </div>
-
-    <div id="about-me" class="container">
-      <div class="row">
-        <div class="col-md">
-          <h3>About me</h3>
-          <p>
-            I design and build automated test systems, and write & architect LabVIEW software for product R&D.<br><br>I specialise in cRIO RT & FPGA embedded test solutions along with machine vision and robotic control. My test rigs have featured in several Dyson media launches.<br><br>I'm currently expanding my skillset into webUIs through LabVIEW NXG, HTML, CSS and JavaScript, testing out my skills by building webpages like this!
-          </p>
-        </div>
-        <div class="col-md text-center">
-          <img class=profile-picture src="https://pbs.twimg.com/profile_images/1287809726206681093/vwEDhKyc_400x400.jpg" alt="James Sizeland profile picture" width = 292px>
+      <div class="overlay"></div>
+      <div id="about-me" class="container">
+        <div class="row">
+          <div class="col-md">
+            <h3>About me</h3>
+            <p>
+              I design and build automated test systems, and write & architect LabVIEW software for product R&D.<br><br>I specialise in cRIO RT & FPGA embedded test solutions along with machine vision and robotic control. My test rigs have featured in several Dyson media launches.<br><br>I'm currently expanding my skillset into webUIs through LabVIEW NXG, HTML, CSS and JavaScript, testing out my skills by building webpages like this!
+            </p>
+          </div>
+          <div class="col-md text-center">
+            <img class=profile-picture src="https://pbs.twimg.com/profile_images/1287809726206681093/vwEDhKyc_400x400.jpg" alt="James Sizeland profile picture" width = 292px>
+          </div>
         </div>
       </div>
-    </div>
+    </div> <!-- /Jumbotron -->
+
+
+
     <!-- Hero box header -->
     <!-- <header>
       <img class=profile-picture src="https://pbs.twimg.com/profile_images/1287809726206681093/vwEDhKyc_400x400.jpg" alt="James Sizeland profile picture" width = 300px>
@@ -83,5 +81,13 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <div class=row>
+      <div class=col-6>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/vc-qAZxNmAU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
